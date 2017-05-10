@@ -4,8 +4,11 @@
 #### To run the project
 
 1. $ ```git clone https://github.com/murribu/emma-backend```
-2. $ ```npm install```
-3. $ ```npm start```
+2. $ ```cd emma-backend```
+3. $ ```npm install```
+4. $ ```npm start```
+5. Visit / - you should see "it works"
+6. Send a POST request to / with a package with the following structure: {"urls":["https://google.com","http://notavalidurlihopeasdfasdfasdfasdf.net", "www.yaho.c", "qwer"]}
 
 #### To run tests
 
