@@ -6,13 +6,13 @@
 2. $ ```cd emma-backend```
 3. $ ```npm install```
 4. $ ```npm start```
-5. Visit / - you should see "it works"
+5. Visit / - you should see "send a POST to this endpoint to use the service"
 6. To actually use the service, send a POST request to / with a package with the following structure: 
     ```
     {"urls":["https://google.com","http://notavalidurlihopeasdfasdfasdfasdf.net", "www.yaho.c", "qwer"]}
     ```
 
-### Response
+#### Response
 
 Given a set of "urls," the service replies with a list of the URLs that had problems - either "malformed" (for strings that are not actually a valid URL) or "unsuccessful" (for valid URLs that return an HTTP error code), like so: 
 

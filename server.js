@@ -9,7 +9,7 @@ var port = 8080;
 app.listen(port);
 
 app.get('/', function(req, res){
-    res.json('it works');
+    res.json('send a POST to this endpoint to use the service');
 })
 app.post('/', urlverify.httpResponse)
 
