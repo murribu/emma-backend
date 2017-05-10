@@ -8,7 +8,7 @@
 3. $ ```npm install```
 4. $ ```npm start```
 5. Visit / - you should see "it works"
-6. Send a POST request to / with a package with the following structure: {"urls":["https://google.com","http://notavalidurlihopeasdfasdfasdfasdf.net", "www.yaho.c", "qwer"]}
+6. To actually use the service, send a POST request to / with a package with the following structure: {"urls":["https://google.com","http://notavalidurlihopeasdfasdfasdfasdf.net", "www.yaho.c", "qwer"]}
 
 #### To run tests
 
