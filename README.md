@@ -16,7 +16,7 @@
 2. Visit [http://0.0.0.0:8081](http://0.0.0.0:8081) in the browser you'd like to test.
 
 #### Explanation of npm packages
-As you can see in [package.json](https://github.com/murribu/emma-backend/package.json), I loaded the following npm packages:
+As you can see in [package.json](https://github.com/murribu/emma-backend/blob/master/package.json), here are some of the npm packages I loaded:
 
 1. [express](https://www.npmjs.com/package/express) - handles http requests
 2. [request-promise](https://github.com/request/request-promise) - sends http requests from the backend process and handles the response with a promise
